@@ -18,3 +18,44 @@ blockquote {
   width: 400px;
   margin-left: 300px;
 }
+
+em {
+  color: #ffbeb8;
+}
+
+.col-md-4 {
+  margin: 2px;
+  width: 300px;
+  height: 150px;
+}
+
+.row {
+  text-align: center;
+  padding-left: 100px;
+}
+
+#col-1 {
+  background: #f25041;
+  font-weight: bold;
+}
+
+#col-2 {
+  background: #6056ea;
+  font-weight: bold;
+}
+
+#col-3 {
+  background: #40ed99;
+  font-weight: bold;
+}
+
+.row a {
+  color: black;
+}
+
+.dance-photo {
+  display: block;
+  margin: auto;
+  height: 350px;
+  width: 220px;
+}
