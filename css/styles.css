@@ -1,0 +1,13 @@
+body {
+
+}
+.main-photo-title {
+  display: block;
+  text-align: center;
+  margin: 20px;
+}
+
+.img-rounded {
+  height: 300px;
+  width: 200px;
+}
