@@ -1,6 +1,6 @@
 # My Portfolio page
 
-#### Portfolio Exercise for Epicodus, 08.04.2017
+#### Portfolio Exercise for Epicodus, 08.08.2017
 
 #### By Elrey Belmonti
 
@@ -10,7 +10,11 @@ This webpage is my portfolio linking to some of my projects and to my dance webp
 
 ## Setup/Installation Requirements
 
-Clone this repo to your local computer.
+Clone this repo to your local computer:
+* Copy the url for this repo
+* In your terminal use "git clone (repo url)"
+* Click on the index.html file to open or go to https://elreyb.github.io/portfolio/
+
 
 ## Known Bugs
 
@@ -26,4 +30,4 @@ Bootstrap
 
 ### License
 
-Copyright (c) 2017 Elrey Belmonti 
+Copyright (c) 2017 Elrey Belmonti
