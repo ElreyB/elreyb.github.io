@@ -53,9 +53,36 @@ em {
   color: black;
 }
 
-.dance-photo {
-  display: block;
-  margin: auto;
+.well-photo {
+  /*display: inline-block;*/
+  /*margin: auto;*/
   height: 350px;
   width: 220px;
+}
+
+.photo-container {
+  clear: both;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+#jewelry-photo {
+  float: left;
+  margin-left: 80px;
+}
+
+#dance-photo {
+  float: right;
+  margin-right: 80px
+}
+
+#well-box {
+  height: 600px;
+}
+
+.photo-container p {
+  display: inline-block;
+  margin: 10px;
 }
