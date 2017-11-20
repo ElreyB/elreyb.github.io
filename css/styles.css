@@ -10,13 +10,7 @@ body {
   left: -16;
   right: 0;
   z-index: -1;
-
-  background-repeat: no-repeat;
-  background-position: center;
   background-attachment: fixed;
-  background-size: cover;
-
-  /*display: block;*/
   background-image: url("../images/body_background.jpg");
   background-color: #282925;
   width: 200%;
@@ -33,6 +27,12 @@ body {
   left: -20px;
   right: -20px;
   z-index: 0;
+}
+
+.content:before, .jumbo_display {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .badge {
@@ -65,9 +65,6 @@ nav.navbar.navbar-inverse {
 
 .jumbo_display {
   background-image: url("../images/tech.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   text-align: center;
   color: #ffffff;
   padding-top: 129px;
@@ -81,9 +78,7 @@ hr {
 
 .branding {
   margin-top: 13%;
-  background-color: rgba(245, 245, 245, 0.70);
   border: 0;
-  color: #020506;
 }
 
 .space {
@@ -96,9 +91,17 @@ hr {
   margin-top: 60px;
 }
 
-#about_me {
+#about_me, .branding  {
   background-color: #357fa2;
   color: #060000;
+}
+
+.img-rounded {
+  padding-left: 100px;
+}
+
+blockquote {
+  font-size: 21.5px;
 }
 
 em {
@@ -109,11 +112,6 @@ em {
   margin: 2px;
   width: 300px;
   height: 150px;
-}
-
-.row {
-  text-align: center;
-  padding-left: 100px;
 }
 
 #col-1 {
@@ -136,8 +134,6 @@ em {
 }
 
 .well-photo {
-  /*display: inline-block;*/
-  /*margin: auto;*/
   height: 350px;
   width: 220px;
 }
