@@ -1,22 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
 body {
-  background-color: #51B2B1;
-}
-.main-photo-title {
-  display: block;
-  text-align: center;
-  margin: 20px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-.img-rounded {
-  height: 300px;
-  width: 200px;
+.content:before {
+  content: "";
+  position: fixed;
+  left: -16;
+  right: 0;
+  z-index: -1;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  /*display: block;*/
+  background-image: url("../images/body_background.jpg");
+  background-color: #282925;
+  width: 200%;
+  height: 200%;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 
-blockquote {
+.content {
+  left: -20px;
+  right: -20px;
+  z-index: 0;
+}
+
+.badge {
+  font-size: 16px;
+  padding: 5px 8px;
+}
+
+.badge-primary {
+  background-color: #3a87ad;
+}
+.badge-primary:hover {
+  background-color: #2d6987;
+}
+
+.badge-dark {
+  background-color: #1a1a1a;
+}
+.badge-dark:hover {
+  background-color: #333333;
+}
+
+nav.navbar.navbar-inverse {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background-color: #011a22;
+}
+
+.jumbo_display {
+  background-image: url("../images/tech.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
-  height: 120px;
-  width: 400px;
-  margin-left: 300px;
+  color: #ffffff;
+  padding-top: 129px;
+  padding-bottom: 75px;
+}
+
+hr {
+  width: 13%;
+}
+
+.branding {
+  margin-top: 13%;
+  background-color: rgba(245, 245, 245, 0.60);
+  border: 0;
+  color: #020506;
+}
+
+.space {
+  width: 100%;
+  height: 500%;
+  background-color: #eee0;
 }
 
 em {
