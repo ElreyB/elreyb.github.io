@@ -72,6 +72,7 @@ nav.navbar.navbar-inverse {
   color: #ffffff;
   padding-top: 129px;
   padding-bottom: 75px;
+  margin-bottom: 60px;
 }
 
 hr {
@@ -80,7 +81,7 @@ hr {
 
 .branding {
   margin-top: 13%;
-  background-color: rgba(245, 245, 245, 0.60);
+  background-color: rgba(245, 245, 245, 0.70);
   border: 0;
   color: #020506;
 }
@@ -89,6 +90,15 @@ hr {
   width: 100%;
   height: 500%;
   background-color: #eee0;
+}
+
+#about_me, #products {
+  margin-top: 60px;
+}
+
+#about_me {
+  background-color: #357fa2;
+  color: #060000;
 }
 
 em {
