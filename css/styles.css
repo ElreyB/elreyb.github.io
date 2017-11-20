@@ -104,6 +104,14 @@ blockquote {
   font-size: 21.5px;
 }
 
+strong, .w-link:hover {
+  color: #e4e4e4;
+}
+
+.w-link {
+  color: #2d363e;
+}
+
 em {
   color: #ffbeb8;
 }
