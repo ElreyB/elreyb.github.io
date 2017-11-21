@@ -42,22 +42,7 @@ body {
 .badge {
   font-size: 22px;
   padding: 5px 8px;
-}
-
-.badge-primary {
-  background-color: #3a87ad;
-}
-
-.badge-primary:hover {
-  background-color: #2d6987;
-}
-
-.badge-dark {
-  background-color: #1a1a1a;
-}
-
-.badge-dark:hover {
-  background-color: #333333;
+  margin: 0px 7px;
 }
 
 nav.navbar.navbar-inverse {
@@ -82,6 +67,11 @@ hr {
   width: 13%;
 }
 
+.hr-header {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
 .branding {
   margin-top: 13%;
   border: 0;
@@ -101,11 +91,11 @@ hr {
   background-color: #357fa2;
 }
 
-#about_me, .branding, .products-text, #contact {
+#about_me, .branding, .products-text {
   color: #010d15;
 }
 
-.thumbnail p, .thumbnail h3, a.btn {
+.thumbnail p, .thumbnail h3, a.btn, #contact, #contact i, a.badge:hover {
    color: #357fa2;
 }
 
@@ -117,7 +107,7 @@ blockquote {
   font-size: 21.5px;
 }
 
-strong, .w-link:hover, a.btn:hover {
+strong, .w-link:hover, a.btn:hover, #contact i:hover {
   color: #e4e4e4;
 }
 
@@ -134,36 +124,23 @@ strong, .w-link:hover, a.btn:hover {
   flex-wrap: wrap;
 }
 
+div.text-center.well, .thumbnail {
+  border: 7px solid rgb(1, 13, 21);
+}
+
 .thumbnail {
   height: 100%;
   text-align: center;
-  border: 7px solid rgb(1, 13, 21);
   padding: 0;
 }
 
-.panel-footer, .thumbnail {
+.panel-footer, .thumbnail, div.text-center.well {
   background-color: rgb(1, 13, 21);
 }
 
 .panel-footer {
   border-top: 0;
 }
-
-/*.thumbnail {
-  display: flex;
-  flex-direction: column;
-}
-
-.thumbnail .caption {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}*/
-
-/*.thumbnail h3 {
-  text-align: center;
-}*/
 
 .thumbnail a {
   font-size: 16px;
@@ -182,33 +159,6 @@ hr.thumbnail-title {
 }
 
 .well-photo {
-  height: 350px;
-  width: 220px;
-}
-
-.photo-container {
-  clear: both;
-  height: 300px;
-  position: relative;
-  margin: auto;
-  text-align: center;
-}
-
-#jewelry-photo {
-  float: left;
-  margin-left: 80px;
-}
-
-#dance-photo {
-  float: right;
-  margin-right: 80px
-}
-
-#well-box {
-  height: 600px;
-}
-
-.photo-container p {
-  display: inline-block;
-  margin: 10px;
+  height: 389px;
+  width: 275px;
 }
