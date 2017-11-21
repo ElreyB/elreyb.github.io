@@ -40,7 +40,7 @@ body {
 }
 
 .badge {
-  font-size: 16px;
+  font-size: 22px;
   padding: 5px 8px;
 }
 
@@ -97,9 +97,16 @@ hr {
   margin-top: 60px;
 }
 
-#about_me, .branding, #projects  {
+#about_me, .branding, #projects, #contact {
   background-color: #357fa2;
-  color: #060000;
+}
+
+#about_me, .branding, .products-text, #contact {
+  color: #010d15;
+}
+
+.thumbnail p, .thumbnail h3, a.btn {
+   color: #357fa2;
 }
 
 .headshot {
@@ -110,11 +117,11 @@ blockquote {
   font-size: 21.5px;
 }
 
-strong, .w-link:hover {
+strong, .w-link:hover, a.btn:hover {
   color: #e4e4e4;
 }
 
-.w-link {
+.w-link, a.w-link {
   color: #2d363e;
 }
 
@@ -122,9 +129,41 @@ strong, .w-link:hover {
   text-decoration: none;
 }
 
-.thumbnail {
-  text-align: center;
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.thumbnail {
+  height: 100%;
+  text-align: center;
+  border: 7px solid rgb(1, 13, 21);
+  padding: 0;
+}
+
+.panel-footer, .thumbnail {
+  background-color: rgb(1, 13, 21);
+}
+
+.panel-footer {
+  border-top: 0;
+}
+
+/*.thumbnail {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail .caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}*/
+
+/*.thumbnail h3 {
+  text-align: center;
+}*/
 
 .thumbnail a {
   font-size: 16px;
@@ -132,7 +171,14 @@ strong, .w-link:hover {
 
 hr.thumbnail-title {
   width: 41%;
-  border-top: 1px solid #333333;
+}
+
+.list-inline a {
+  font-size: 36px;
+}
+
+#contact p {
+  margin-top: 13%;
 }
 
 .well-photo {
