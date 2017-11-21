@@ -35,10 +35,6 @@ body {
   background-size: cover;
 }
 
-.navbar-inverse a#quote.navbar-brand:hover {
- color: #9d9d9d;
-}
-
 .badge {
   font-size: 22px;
   padding: 5px 8px;
@@ -107,8 +103,12 @@ blockquote {
   font-size: 21.5px;
 }
 
-strong, .w-link:hover, a.btn:hover, #contact i:hover {
+strong, .w-link:hover, a.btn:hover, #contact i:hover, .navbar-inverse a#quote.navbar-brand:hover, .navbar-inverse a#quote.navbar-brand, footer, footer small {
   color: #e4e4e4;
+}
+
+.navbar-inverse a#quote.navbar-brand {
+  cursor: default;
 }
 
 .w-link, a.w-link {
@@ -154,6 +154,10 @@ hr.thumbnail-title {
   font-size: 36px;
 }
 
+#contact {
+  margin-bottom: 0;
+}
+
 #contact p {
   margin-top: 13%;
 }
@@ -161,4 +165,13 @@ hr.thumbnail-title {
 .well-photo {
   height: 389px;
   width: 275px;
+}
+
+footer {
+  background-color: #011a22;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding: 9px;
+  font-size: 21px;
 }
