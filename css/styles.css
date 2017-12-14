@@ -167,6 +167,10 @@ hr.thumbnail-title {
   width: 275px;
 }
 
+.c-photo {
+  color: #ffffff;
+}
+
 footer {
   background-color: #011a22;
   bottom: 0;
