@@ -103,7 +103,7 @@ blockquote {
   font-size: 21.5px;
 }
 
-strong, .w-link:hover, a.btn:hover, #contact i:hover, .navbar-inverse a#quote.navbar-brand:hover, .navbar-inverse a#quote.navbar-brand, footer, footer small {
+strong, .w-link:hover, a.btn:hover, #contact i:hover, .navbar-inverse a#quote.navbar-brand:hover, .navbar-inverse a#quote.navbar-brand, footer, footer small, .c-link, .click-photo {
   color: #e4e4e4;
 }
 
@@ -115,7 +115,7 @@ strong, .w-link:hover, a.btn:hover, #contact i:hover, .navbar-inverse a#quote.na
   color: #2d363e;
 }
 
-.w-link:hover, .w-link:active {
+.w-link:hover, .w-link:active, .c-link:hover {
   text-decoration: none;
 }
 
@@ -163,13 +163,15 @@ hr.thumbnail-title {
 }
 
 .well-photo {
-  height: 389px;
-  width: 275px;
+  height: 377px;
+  width: 258px;
 }
 
-.c-photo {
-  color: #ffffff;
+cite {
+  display: block;
 }
+
+
 
 footer {
   background-color: #011a22;
