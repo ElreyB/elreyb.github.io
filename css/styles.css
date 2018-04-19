@@ -65,6 +65,10 @@ hr {
   margin-bottom: 6px;
 }
 
+p.p-header {
+  margin: 0;
+}
+
 .branding {
   margin-top: 6%;
   border: 0;
@@ -131,7 +135,8 @@ footer small,
 
 .w-link,
 a.w-link {
-  color: #2d363e;
+  color: #040608;
+  ;
 }
 
 .w-link:hover,
@@ -220,6 +225,12 @@ footer {
   }
   .jumbo_display {
     padding-top: 59px;
+  }
+  hr {
+    width: 59%
+  }
+  .col-md-4 {
+    margin-bottom: 22px;
   }
 }
 
