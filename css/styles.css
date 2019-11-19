@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
 body {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .content:before {
@@ -136,7 +136,6 @@ footer small,
 .w-link,
 a.w-link {
   color: #040608;
-  ;
 }
 
 .w-link:hover,
@@ -209,6 +208,10 @@ footer {
   font-size: 21px;
 }
 
+#about_me {
+  margin-bottom: 0;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
@@ -227,7 +230,7 @@ footer {
     padding-top: 59px;
   }
   hr {
-    width: 59%
+    width: 59%;
   }
   .col-md-4 {
     margin-bottom: 22px;
